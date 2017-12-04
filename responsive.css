@@ -1,0 +1,58 @@
+/* Desktop Layout:*/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.main img.head_back_img{width: 97%; height: 900px; top: -20px; overflow-y:hidden; -ms-overflow-style:-ms-autohiding-scrollbar;}
+	
+}
+/* Tablet Layout: 800px */
+@media only screen and (min-height:800px) and (max-height:991){
+	#menuarea{margin-bottom:40px;}
+}
+
+/* Tablet Layout: 768px*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.main img.head_back_img{width: 719px; height: 851px; top: -20px;}
+	#menuarea{margin-bottom:40px;}
+}
+/*/* Tablet Layout: 768px*/
+@media only screen and (max-width: 767px) {
+		.main img.head_back_img{width: 736px; height: 900px; top: -20px;}
+		#menuarea{margin-bottom:40px;}
+}
+
+/* Wide Mobile Layout: 480px.*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		.main img.head_back_img{width: 95%; height: 882px; top: -20px; overflow-y:hidden;-ms-overflow-style:-ms-autohiding-scrollbar;}
+		.head_title img{width: 459px; height: 94px; 
+						transition:all 1000ms ease;
+						-moz-transition:all 1000ms ease;
+						-webkit-transition:all 1000ms ease;
+		}
+		#menuarea{margin-bottom:40px;}
+}
+
+/* Mobile Layout: 351px-479px.*/
+@media only screen and (min-width: 351px) and (max-width: 479px) {
+		.main img.head_back_img{width: 91%; height: 826px; top: -20px; overflow-y:hidden;-ms-overflow-style:-ms-autohiding-scrollbar;}
+		.head_title img{width: 288px; height: 82px;	
+						transition:all 1000ms ease;
+						-moz-transition:all 1000ms ease;
+						-webkit-transition:all 1000ms ease;}
+		#submit_button{width: 229px; height: 40px; margin: 12px 0px 100px;}
+		.heading_area span{font-size: 21px;}
+		.heading_area h1.first{font-size: 36px;}
+		#menuarea{margin-bottom:40px;}
+}
+
+/* Mobile Layout: 320px-350px.*/
+@media only screen and (min-width: 320px) and (max-width: 350px) {
+		.main img.head_back_img{width: 91%; height: 882px; top: -20px; overflow-y:hidden;-ms-overflow-style:-ms-autohiding-scrollbar;}
+		.head_title img{width: 288px; height: 82px;	
+						transition:all 1000ms ease;
+						-moz-transition:all 1000ms ease;
+						-webkit-transition:all 1000ms ease;}
+		#submit_button{width: 229px; height: 40px; margin: 12px 0px 100px;}
+		.heading_area span{font-size: 21px;}
+		.heading_area h1.first{font-size: 36px;}
+		#menuarea{margin-bottom:40px;}
+}

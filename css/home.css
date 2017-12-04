@@ -1,0 +1,680 @@
+body{
+background:url("../img/back.jpg") repeat-x center center;
+background-size:100%;
+height:100%;
+z-index:-2;
+cursor:url(img/cursor.png),auto;
+
+}
+
+
+
+/*Header Area*/
+.header_area{
+	margin-top:8px;
+	}
+.header{
+background:url("../img/ladi.jpg") repeat-x;
+border-top-left-radius: 5px;
+-webkit-border-top-left-radius: 5px;
+-ms-border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-ms-border-top-right-radius: 5px;
+}
+.head_title{
+
+
+}
+.head_title img{
+width:650px;
+height:125px;
+}
+
+
+
+
+
+
+
+.form-group{
+line-height: 3.114px;
+}
+.input-group{
+line-height: 0.429px;
+}
+#menuarea{
+	padding-bottom:20px;
+}
+nav.menu{}
+ul.mainmenu{}
+ul.mainmenu li{}
+ul.mainmenu li a{
+font-size:20px;
+color:#FFF;
+text-decoration:none;
+padding-left:3%;
+display:block;
+width: 87%;
+height:40px;
+line-height:40px;
+margin-bottom:1px;
+text-align:left;
+background: #b2d934;
+background-image: -webkit-linear-gradient(top, #b2d934, #5eb82b);
+background-image: -moz-linear-gradient(top, #b2d934, #5eb82b);
+background-image: -ms-linear-gradient(top, #b2d934, #5eb82b);
+background-image: -o-linear-gradient(top, #b2d934, #5eb82b);
+background-image: linear-gradient(to bottom, #b2d934, #5eb82b);
+-webkit-box-shadow: 0px 1px 3px #666666;
+-moz-box-shadow: 0px 1px 3px #666666;
+box-shadow: 0px 1px 3px #666666;
+
+transition:all 400ms ease;
+-moz-transition:all 400ms ease;
+-webkit-transition:all 400ms ease;
+}
+ul.mainmenu li :last-child a{
+border-bottom:none;
+}
+ul.mainmenu li a:hover{
+background:#A3D900;
+width:96%;
+padding-left:5%;
+}
+.validation{
+font-weight:800;
+text-transform:capitalize;
+}
+
+
+
+.main_area{
+
+}
+.main{
+color:#FFF;
+font-size:25px;
+text-align:center;
+background:rgba(0,0,0,0.6);
+}
+
+.heading_area h1.first{
+color:#FF2626;
+font-weight:700;
+font-size:45px;
+text-transform:capitalize;
+}
+.heading_area p{
+margin-top:30px;
+margin-bottom:30px;
+}
+.heading_area span{
+font-family: 'Playfair Display', serif;
+font-weight:400;
+color:antiquewhite;
+padding:5px 10px;
+font-size:36px;
+text-transform:capitalize;
+text-align:center;
+
+
+border-radius:5px;
+border:2px solid #FFF;
+
+}
+.heading_area span:hover{
+box-shadow:1px 0px 5px 2px #00B3B3;
+-moz-box-shadow:1px 0px 5px 2px #00B3B3;
+-webkit-box-shadow:1px 0px 5px 2px #00B3B3;
+}
+.vehicle_form{
+margin-left:10%;
+z-index:4444444444;
+}
+.home_radio input[type="radio"]{
+cursor:pointer;
+}
+.home_radio label{
+    display:inline-block;  
+	cursor:pointer;
+	font-size:16px;
+}
+.home_radio input[type="radio"]:checked+label{
+color:red;
+}
+#submit_button{
+width:300px;
+height:40px;
+background:#2DB300;
+color:#FFF;
+font-weight:700;
+font-size:30px;
+border:none;
+box-shadow: 0px 2px 1px #FFF;
+-moz-box-shadow: 0px 2px 1px #FFF;
+-webkit-box-shadow: 0px 2px 1px #FFF;
+margin:40px 0px 100px 0px;
+border-radius:2px;
+-moz-border-radius:2px;
+-webkit-border-radius:2px;
+transition: all 0.5s ease;
+}
+#submit_button:hover{
+background:#196600;
+color:yellow;
+box-shadow: 0px 1px 7px #08FFB9;
+}
+.ruhul_area{
+height:500px;
+width:100%;
+clear:both;
+display:block;
+}
+.ruhul_area h4.ruhul{
+display:none;
+text-align:right;
+}
+.ruhul_area img{
+width:150px;
+height:200px;
+text-align:right;
+margin-left:405px;
+display:none;
+}
+.motor_submit{
+width:200px;
+height:40px;
+color:orange;
+background:red;
+}
+
+
+
+/*Motorcycle Area*/
+.motorcycle_area{}
+.motorcycle{
+color:#FFF;
+}
+.motorcycle h2.heading_no_1{
+font-family: 'Signika', sans-serif;
+font-weight:800;
+}
+
+
+.motorcycle_output_area{}
+.motorcycle_output{}
+.motorcycle_output .table{
+margin-bottom:100px;
+transition:all 400ms ease;
+}
+.motorcycle_output .table:hover{
+transform:scale(1.5);
+}
+
+
+
+
+/*Three Wheeler page*/
+.threewheeler_input_area{}
+.threewheeler_input{color:#FFF;}
+.threewheeler_input h2{
+
+}
+
+
+.threewheeler_output_area{}
+.threewheeler_output{}
+.threewheeler_output .table{
+margin-bottom:100px;
+transition:all 400ms ease;
+-moz-transition:all 400ms ease;
+-webkit-transition:all 400ms ease;
+}
+.threewheeler_output .table:hover{
+transform:scale(1.3);
+-moz-transform:scale(1.3);
+-webkit-transform:scale(1.3);
+}
+
+
+/*Motor Car page*/
+.motor_car_area{}
+.motor_car{
+color:#FFF;
+}
+.motor_car h2{
+font-family: 'Signika', sans-serif;
+font-weight:800;
+}
+
+.motor_car_output_area{}
+.motor_car_output{}
+.motor_car_output .table{
+margin-bottom:100px;
+transition:all 400ms ease;
+}
+.motor_car_output .table:hover{
+transform:scale(1.2);
+}
+
+
+
+/*Jeep Area*/
+.jeep_input_area{}
+.jeep_input{}
+.jeep_input h2{
+
+}
+
+
+.jeep_output_area{}
+.jeep_output{
+
+
+}
+.jeep_output h2{
+color:#FF0000; 
+background:#FFF; 
+text-align:center;
+transition:all 0.5s ease;
+}
+.jeep_output h2:hover{
+box-shadow: 0px 1px 7px #15D6FF;
+transform:scale(1.1);
+}
+.jeep_output table.jeep_table{
+background:#FFF; 
+width:100%; 
+box-shadow:3px 7px 19px #000;
+transition:transform 400ms ease;
+margin-bottom:50px;
+}
+.jeep_output table.jeep_table:hover{ 
+transform:scale(1.1);
+}
+.jeep_output table.jeep_table tr {height:35px;}
+.jeep_output table.jeep_table tr th {color:orange; background:#000; font-weight:800;padding-left:10px;}
+.jeep_output table.jeep_table tr td {
+border:1px solid #BBBBBB;
+padding:0px 10px;
+}
+tr.total{
+font-weight:800;
+color:#00238C;
+background:#BBBBBB;
+}
+
+
+
+/*Taxi Cab area................*/
+.taxicab_input_area{
+color:#FFF;
+}
+.taxicab_input{
+color:#FFF;
+}
+h2.first{
+color:#FFF;
+font-family: 'Signika', sans-serif;
+font-weight:800;
+text-align:center;
+text-shadow: 3px -10px 3px #000;
+}
+
+
+.taxicab_output_area{}
+.taxicab_output{}
+.taxicab_output .table{
+margin-bottom:100px;
+-moz-transition:all 400ms ease;
+-webkit-transition:all 400ms ease;
+}
+.taxicab_output .table:hover{
+transform:scale(1.3);
+}
+
+
+
+/*Microbus area................*/
+.microbus_area{}
+.microbus{
+color:#FFF;
+}
+.microbus h2{
+color:#FFF;
+font-family: 'Signika', sans-serif;
+font-weight:800;
+}
+.microbus h2{}
+
+
+.microbus_output_area{}
+.microbus_output{}
+.microbus_output .table{
+margin-bottom:100px;
+transition:all 400ms ease;
+font-family: 'Signika', sans-serif;
+}
+.microbus_output .table:hover{
+transform:scale(1.2);
+box-shadow:1px 3px 8px #000;
+
+}
+.microbus_output .table tr{}
+.microbus_output .table tr th{}
+.microbus_output .table tr td{}
+
+
+
+
+/*Minibus area................*/
+.minibus_input_area{}
+.minibus_input{
+color:#FFF;
+}
+
+.minibus_output_area{}
+.minibus_output{}
+.minibus_output .table{
+transition:all 400ms ease;
+-moz-transition:all 400ms ease;
+-webkit-transition:all 400ms ease;
+margin-bottom:100px;
+}
+.minibus_output .table:hover{
+transform:scale(1.3);
+-moz-transform:scale(1.3);
+-webkit-transform:scale(1.3);
+}
+
+
+
+
+
+
+/*Bus area................*/
+.bus_input_area{}
+.bus_input{color:#FFF;}
+
+
+.bus_output_area{}
+.bus_output{}
+.bus_output .table{
+transition:all 400ms ease;
+-moz-transition:all 400ms ease;
+-webkit-transition:all 400ms ease;
+margin-bottom:100px;
+}
+.bus_output .table:hover{
+transform:scale(1.3);
+-moz-transform:scale(1.3);
+-webkit-transform:scale(1.3);
+}
+
+
+
+/*Double Decker Bus area................*/
+.double_decker_bus_input_area{}
+.double_decker_bus_input{color:#FFF;}
+
+.double_decker_bus_output_area{}
+.double_decker_bus_output{}
+.double_decker_bus_output .table{
+transition:all 400ms ease;
+-moz-transition:all 400ms ease;
+-webkit-transition:all 400ms ease;
+margin-bottom:100px;
+}
+.double_decker_bus_output .table:hover{
+transform:scale(1.3);
+-moz-transform:scale(1.3);
+-webkit-transform:scale(1.3);
+}
+
+
+
+/*Articulated area................*/
+.art_bus_input_area{}
+.art_bus_input{color:#FFF;}
+
+.art_bus_output_area{}
+.art_bus_output{}
+.art_bus_output .table{
+transition:all 400ms ease;
+-moz-transition:all 400ms ease;
+-webkit-transition:all 400ms ease;
+margin-bottom:100px;
+}
+.art_bus_output .table:hover{
+transform:scale(1.3);
+-moz-transform:scale(1.3);
+-webkit-transform:scale(1.3);
+}
+
+
+
+/*Van/Covered Van area................*/
+.van_input_area{}
+.van_input{color:#FFF;}
+
+.van_output_area{}
+.van_output{}
+.van_output table.table{
+transition:all 700ms ease;
+-moz-transition:all 700ms ease;
+-webkit-transition:all 700ms ease;
+margin-bottom:100px;
+}
+.van_output table.table:hover{
+transform: rotate(360deg) scale(1.3);
+-moz-transform: rotate(360deg) scale(1.3);
+-webkit-transform: rotate(360deg) scale(1.3);
+}
+
+
+/*Pickup van area................*/
+.pickupvan_area{}
+.pickupvan{
+color:#FFF;
+
+}
+#pickup_form{
+text-align:center;
+}
+#pickup_form input#weight{
+width:60%;
+height:35px;
+border:none;
+padding:0px 10px;
+font-size:22px;
+border-radius:5px;
+}
+#Kg{
+font-size:22px;
+}
+#hire, #non_hire, #ac, #non_ac{
+font-size:30px;
+}
+input#non_hire{
+font-size:30px;
+}
+.btn{
+width:100%;
+margin-top:10px;
+}
+.input-group{
+margin:auto;
+}
+
+.pickupvan_output_area{}
+.pickupvan_output{
+color:#FFF;
+}
+.pickupvan_output h1{}
+.pickupvan_output{}
+.pickup_table{
+background:#FFF;
+color:#000;
+width:100%;
+margin-bottom:80px;
+transition:all 500ms ease;
+}
+.pickup_table:hover{
+transform:scale(1.3);
+}
+.pickup_table tr{
+border-bottom:1px solid #BBB;
+height:30px;
+}
+.pickup_table tr th{
+padding:0px 10px;
+font-size:16px;
+background:#000;
+color:gold;
+text-align:center;
+}
+.pickup_table tr td{
+border:1px solid #008C8C;
+padding:0px 10px;
+}
+.left_td{
+text-align:left;
+}
+.last_tr{
+background:#003366;
+color:#FFFFFF;
+font-weight:800;
+}
+.input-group label{
+margin-top:10px;
+margin-right:50px;
+}
+ label:hover{
+cursor:pointer;
+}
+.input-group input[type="radio"]{
+color:#FFF;
+}
+.input-group input[type="radio"]:checked+label{
+color:red;
+}
+
+
+/* Truck Area*/
+.truck_area{}
+.truck{ margin:auto;}
+.truck h2.first{
+color:orange;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-weight:700;
+font-size:40px;
+}
+
+.truck_output_area{}
+.truck_output{}
+#truckTable{
+transition:all 400ms ease;
+-moz-transition:all 400ms ease;
+-webkit-transition:all 400ms ease;
+margin-bottom:100px;
+}
+#truckTable:hover{
+transform:scale(1.2);
+-moz-transform:scale(1.2);
+-webkit-transform:scale(1.2);
+}
+
+
+
+/* Tank Lorry Area*/
+.tank_lorry_input_area{}
+.tank_lorry_input{color:#FFF;}
+
+.tank_lorry_output_area{}
+.tank_lorry_output{}
+.tank_lorry_output .table{
+transition:all 400ms ease;
+-moz-transition:all 400ms ease;
+-webkit-transition:all 400ms ease;
+margin-bottom:100px;
+}
+.tank_lorry_output .table:hover{
+transform:scale(1.3);
+-moz-transform:scale(1.3);
+-webkit-transform:scale(1.3);
+}
+
+
+/* Trailler Area*/
+.trailler_input_area{}
+.trailler_input{color:#FFF;}
+
+.trailler_output_area{}
+.trailler_output{}
+.trailler_output .table{
+transition:all 400ms ease;
+-moz-transition:all 400ms ease;
+-webkit-transition:all 400ms ease;
+margin-bottom:100px;
+}
+.trailler_output .table:hover{
+transform:scale(1.3);
+-moz-transform:scale(1.3);
+-webkit-transform:scale(1.3);
+}
+
+tr th{
+
+}
+tr th.left_th{
+text-align:right;
+}
+
+
+
+/* Trailler Area*/
+.trucktor_input_area{}
+.trucktor_input{color:#FFF;}
+
+.trucktor_output_area{}
+.trucktor_output{}
+.trucktor_output .table{
+transition:all 400ms ease;
+-moz-transition:all 400ms ease;
+-webkit-transition:all 400ms ease;
+margin-bottom:100px;
+}
+.trucktor_output .table:hover{
+transform:scale(1.3);
+-moz-transform:scale(1.3);
+-webkit-transform:scale(1.3);
+}
+
+
+/*Footer Area*/
+.footer_area{
+color:#FFF;
+background:#111111;
+position:fixed;
+z-index:99999;
+bottom:0;
+width:100%;
+}
+.footer{
+text-align:center;
+}
+.footer p{
+margin:auto;
+padding:6px 0px;
+
+text-transform:capitalize;
+}
+.footer p a{
+color:#F00;
+text-shadow:0px -1px 1px #F00;
+}
+.footer p a:hover{
+color:#FFFF00;
+text-shadow:none;
+}

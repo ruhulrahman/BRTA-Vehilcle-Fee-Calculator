@@ -1,0 +1,63 @@
+/*driving_license*/
+.driving_license_area{}
+.driving_license{
+
+}
+.driving_license h2{
+color:#FF0000; 
+background:#FFF; 
+text-align:center;
+text-transform:capitalize;
+transition:all 0.5s ease;
+}
+.driving_license h2:hover{
+box-shadow: 0px 1px 7px #15D6FF;
+transform:scale(1.1);
+}
+.driving_license table{
+background:#FFF; 
+width:100%; 
+box-shadow:3px 7px 19px #000;
+transition:transform 0.5s ease;
+margin-bottom:50px;
+}
+.driving_license table:hover{
+transform:scale(1.8);
+}
+.driving_license table tr {height:35px;}
+.driving_license table tr th {
+color:orange; 
+background:#000; 
+font-weight:800;
+padding-left:10px;
+text-align:center;
+}
+.driving_license table tr td {
+border:1px solid #BBBBBB; 
+padding-left:10px;
+padding-right:10px;
+}
+td{
+text-align:right;
+}
+tr.total{
+font-weight:800;
+color:#00238C;
+background:#BBBBBB;
+}
+td.left{
+text-align:left;
+}
+
+.driving_button_area{
+margin-top:25px;
+}
+.driving_button{}
+.button_form{
+
+text-align:center;
+}
+.button_form button{
+
+}
+

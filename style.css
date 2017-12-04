@@ -1,0 +1,58 @@
+.homepage_four_area{}
+.homepage_four{
+background:rgba(0,0,0,0.8);
+}
+
+.home_heading{
+max-width:700px;
+margin:auto;
+text-align:center;
+margin-top:30px;
+}
+.home_heading h1{
+	color: #F00;
+	
+}
+.home_heading h1 span{
+	border:2px solid #F00;
+	padding:10px 10px;
+	border-radius:50px 0px;
+}
+
+.home_heading h1 span:hover{
+color:#00FFFF;
+border:2px solid #00FFFF;
+}
+
+.home_tow_top{
+margin-top:30px;	
+margin-bottom:30px;	
+}
+.home_bottom_two{
+margin-bottom:35px;	
+}
+.home_four{
+width:85%;
+margin:auto;
+}
+.home_four a{
+text-decoration: none;
+display: block;
+padding: 46px 30px;
+border: 3px solid #FFF;
+text-align: center;
+color: #FFF;
+text-transform: uppercase;
+font-size: 25px;
+transition:all 0.5s ease;
+-moz-transition:all 0.5s ease;
+-webkit-transition:all 0.5s ease;
+}
+.home_four a:hover{
+color: #F00;
+border:3px solid #F00;
+border-radius:10px;
+background: rgba(6, 29, 8, 0.42);
+}
+.motor_vehicle{}
+.motor_vehicle a{}
